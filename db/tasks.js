@@ -38,10 +38,23 @@ var retrieveTask = function(taskId, callback) {
            callback(error, null);
            done();
        } else {
-           let query = client.query("select * from task where id = $1", [taskId]);
-           retrieveResultsOfQuery(query, function(tasks) {
-               callback(null, tasks);
-               done();
+           let query = client.query("select * from task where id = $1", [taskId], function(err, result) {
+               if (err) {
+                   callback(err, null);
+                   done();
+               } else {
+                   if (result.rows.length === 0) {
+                       let noTaskError = new Error('Task not present');
+                       noTaskError.status = 404;
+                       callback(noTaskError, null);
+                       done();
+                   } else {
+                       retrieveResultsOfQuery(query, function(tasks) {
+                           callback(null, tasks);
+                           done();
+                       });
+                   }
+               }
            });
        }
     });

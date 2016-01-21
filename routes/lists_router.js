@@ -79,7 +79,7 @@ router.get('/:listId/tasks', oauth.authorise(), function(req, res, next) {
 });
 
 router.post('/:listId/tasks', oauth.authorise(), function(req, res, next) {
-   //create a new task
+
     let listId = req.params.listId;
     let task = req.body.task;
     tasks.createTask(listId, task, function(error, task) {
