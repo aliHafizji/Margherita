@@ -38,7 +38,7 @@ var retrieveTask = function(taskId, callback) {
            callback(error, null);
            done();
        } else {
-           let query = client.query("select * from task where id = $1", [taskId], function(err, result) {
+           client.query("select * from task where id = $1", [taskId], function(err, result) {
                if (err) {
                    callback(err, null);
                    done();
@@ -49,10 +49,8 @@ var retrieveTask = function(taskId, callback) {
                        callback(noTaskError, null);
                        done();
                    } else {
-                       retrieveResultsOfQuery(query, function(tasks) {
-                           callback(null, tasks);
-                           done();
-                       });
+                       callback(null, result.rows[0]);
+                       done();
                    }
                }
            });
@@ -76,13 +74,38 @@ var createTask = function(listId, task, callback) {
 
 var updateTask = function(taskId, task, callback) {
     database.connect(connectionString, function(error, client, done) {
-        if (error) {
+
+        let errorCallback = function(error) {
             callback(error, null);
             done();
+        };
+
+        let createError = function(status, errorMessage) {
+            let error = new Error(errorMessage);
+            error.status = status;
+            return error;
+        };
+
+        if (error) {
+            errorCallback(error);
         } else {
-            client.query('UPDATE task SET text = $1, updated_at = $2 where id = $3 returning *', [task, new Date(), taskId], function(err, result) {
-                callback(err, result === undefined ? null : result.rows);
-                done();
+            client.query('Select * from task where id = $1', [taskId], function(err, result) {
+                if (err) {
+                    errorCallback(err)
+                } else {
+                    if (result.rows.length === 0) {
+                        errorCallback(createError(404,'Task not present' ));
+                    } else {
+                        if (!result.rows[0].archived_at) {
+                            client.query('UPDATE task SET text = $1, updated_at = $2 where id = $3 returning *', [task, new Date(), taskId], function(err1, result) {
+                                callback(err1, result === undefined ? null : result.rows);
+                                done();
+                            });
+                        } else {
+                            errorCallback(createError(403, 'Failed to archive'));
+                        }
+                    }
+                }
             });
         }
     });

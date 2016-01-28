@@ -79,7 +79,6 @@ router.get('/:listId/tasks', oauth.authorise(), function(req, res, next) {
 });
 
 router.post('/:listId/tasks', oauth.authorise(), function(req, res, next) {
-
     let listId = req.params.listId;
     let task = req.body.task;
     tasks.createTask(listId, task, function(error, task) {
@@ -92,7 +91,6 @@ router.post('/:listId/tasks', oauth.authorise(), function(req, res, next) {
 });
 
 router.post('/:listId/tasks/archiveAll', function(req, res, next) {
-    //archive all tasks
     let listId = req.params.listId;
     tasks.archiveTasks(listId, function(error, tasks) {
        if (!error) {

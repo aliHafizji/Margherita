@@ -15,7 +15,7 @@ router.get('/:taskId', oauth.authorise(), function(req, res, next) {
 
     tasks.retrieveTask(taskId, function(error, tasks) {
         if (!error) {
-            res.send(tasks);
+            res.send([tasks]);
         }
         next(error);
     });

@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b72143d1-2cee-4dd8-987f-73a99a259505" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/www" afterPath="$PROJECT_DIR$/bin/www" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/tasks.js" afterPath="$PROJECT_DIR$/db/tasks.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/lists_router.js" afterPath="$PROJECT_DIR$/routes/lists_router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/tasks_router.js" afterPath="$PROJECT_DIR$/routes/tasks_router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/api_tests.js" afterPath="$PROJECT_DIR$/tests/api_tests.js" />
     </list>
     <ignored path="Margherita.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,24 +26,96 @@
     <favorites_list name="Margherita" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="api_tests.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/api_tests.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47832587">
-              <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.5277361">
+              <caret line="113" column="22" selection-start-line="113" selection-start-column="22" selection-end-line="113" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tasks_router.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/tasks_router.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lists.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/lists.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="83" column="15" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="15" />
               <folding>
-                <element signature="e#0#44#0" expanded="false" />
+                <element signature="e#176#612#0" expanded="false" />
+                <element signature="e#246#608#0" expanded="false" />
+                <element signature="e#267#333#0" expanded="false" />
+                <element signature="e#339#602#0" expanded="false" />
+                <element signature="e#477#590#0" expanded="false" />
+                <element signature="e#654#1152#0" expanded="false" />
+                <element signature="e#726#1148#0" expanded="false" />
+                <element signature="e#747#813#0" expanded="false" />
+                <element signature="e#819#1142#0" expanded="false" />
+                <element signature="e#954#1002#0" expanded="false" />
+                <element signature="e#1052#1130#0" expanded="false" />
+                <element signature="e#1272#2140#0" expanded="false" />
+                <element signature="e#1293#1359#0" expanded="false" />
+                <element signature="e#1365#2134#0" expanded="false" />
+                <element signature="e#1460#2122#0" expanded="false" />
+                <element signature="e#1487#1575#0" expanded="false" />
+                <element signature="e#1581#2108#0" expanded="false" />
+                <element signature="e#1633#1864#0" expanded="false" />
+                <element signature="e#1870#2090#0" expanded="false" />
+                <element signature="e#1950#2066#0" expanded="false" />
+                <element signature="e#2198#2645#0" expanded="false" />
+                <element signature="e#2269#2641#0" expanded="false" />
+                <element signature="e#2290#2356#0" expanded="false" />
+                <element signature="e#2362#2635#0" expanded="false" />
+                <element signature="e#2510#2623#0" expanded="false" />
+                <element signature="e#2693#4457#0" expanded="false" />
+                <element signature="e#2738#2870#0" expanded="false" />
+                <element signature="e#2789#2862#0" expanded="false" />
+                <element signature="e#2942#4453#0" expanded="false" />
+                <element signature="e#2963#3029#0" expanded="false" />
+                <element signature="e#3035#4447#0" expanded="false" />
+                <element signature="e#3129#4433#0" expanded="false" />
+                <element signature="e#3180#4314#0" expanded="false" />
+                <element signature="e#3238#4294#0" expanded="false" />
+                <element signature="e#3272#3357#0" expanded="false" />
+                <element signature="e#3411#4270#0" expanded="false" />
+                <element signature="e#3585#4242#0" expanded="false" />
+                <element signature="e#3788#4210#0" expanded="false" />
+                <element signature="e#4022#4174#0" expanded="false" />
+                <element signature="e#4320#4419#0" expanded="false" />
+                <element signature="e#4529#4786#0" expanded="false" />
+                <element signature="e#4673#4707#0" expanded="false" />
+                <element signature="e#4748#4782#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="oauth2server.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/oauth2-server/lib/oauth2server.js">
+      <file leaf-file-name="tasks.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/tasks.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="83" column="44" selection-start-line="83" selection-start-column="44" selection-end-line="83" selection-end-column="44" />
+              <caret line="103" column="32" selection-start-line="103" selection-start-column="32" selection-end-line="103" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -68,14 +141,14 @@
         <option value="$PROJECT_DIR$/oauth.js" />
         <option value="$PROJECT_DIR$/db/database.js" />
         <option value="$PROJECT_DIR$/db/lists.js" />
-        <option value="$PROJECT_DIR$/routes/tasks_router.js" />
         <option value="$PROJECT_DIR$/tests/database.js" />
         <option value="$PROJECT_DIR$/db/create_database.sql" />
-        <option value="$PROJECT_DIR$/db/tasks.js" />
-        <option value="$PROJECT_DIR$/routes/lists_router.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/bin/www" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/routes/lists_router.js" />
+        <option value="$PROJECT_DIR$/routes/tasks_router.js" />
+        <option value="$PROJECT_DIR$/db/tasks.js" />
         <option value="$PROJECT_DIR$/tests/api_tests.js" />
       </list>
     </option>
@@ -91,9 +164,8 @@
     <data>$PROJECT_DIR$/node_modules/mocha</data>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="801" />
-    <option name="y" value="322" />
-    <option name="width" value="1440" />
+    <option name="y" value="23" />
+    <option name="width" value="1412" />
     <option name="height" value="813" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -121,8 +193,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -165,12 +235,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Margherita" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Margherita" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="bin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -186,8 +272,8 @@
     <property name="nodejs.mocha.node_interpreter_path" value="/usr/local/bin/node" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
   </component>
-  <component name="RunManager" selected="Mocha.api_tests">
-    <configuration default="false" name="Database test suite.Lists table tests.Retrieve all lists" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Mocha.API test suite.Tasks api test suite.Update a task">
+    <configuration default="false" name="API test suite.List api test suite.Retrieve all tasks" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
       <pass-parent-env>true</pass-parent-env>
@@ -195,29 +281,76 @@
       <ui>bdd</ui>
       <extra-mocha-options />
       <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/tests/database.js</test-file>
+      <test-file>$PROJECT_DIR$/tests/api_tests.js</test-file>
       <test-names>
-        <name value="Database test suite" />
-        <name value="Lists table tests" />
-        <name value="Retrieve all lists" />
+        <name value="API test suite" />
+        <name value="List api test suite" />
+        <name value="Retrieve all tasks" />
       </test-names>
       <method />
     </configuration>
-    <configuration default="false" name="tests/database.js" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="API test suite.List api test suite.Archive all tasks" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-options />
       <working-directory>$PROJECT_DIR$</working-directory>
       <pass-parent-env>true</pass-parent-env>
       <envs />
       <ui>bdd</ui>
       <extra-mocha-options />
-      <test-kind>TEST_FILE</test-kind>
-      <test-file>$PROJECT_DIR$/tests/database.js</test-file>
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/tests/api_tests.js</test-file>
+      <test-names>
+        <name value="API test suite" />
+        <name value="List api test suite" />
+        <name value="Archive all tasks" />
+      </test-names>
       <method />
     </configuration>
-    <configuration default="false" name="lists.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="lists.js" working-dir="$PROJECT_DIR$/db">
+    <configuration default="false" name="API test suite.List api test suite.Create a task" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/tests/api_tests.js</test-file>
+      <test-names>
+        <name value="API test suite" />
+        <name value="List api test suite" />
+        <name value="Create a task" />
+      </test-names>
       <method />
     </configuration>
-    <configuration default="false" name="www" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="www" working-dir="$PROJECT_DIR$/bin">
+    <configuration default="false" name="API test suite.Tasks api test suite.Retrieve a task" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/tests/api_tests.js</test-file>
+      <test-names>
+        <name value="API test suite" />
+        <name value="Tasks api test suite" />
+        <name value="Retrieve a task" />
+      </test-names>
+      <method />
+    </configuration>
+    <configuration default="false" name="API test suite.Tasks api test suite.Update a task" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/tests/api_tests.js</test-file>
+      <test-names>
+        <name value="API test suite" />
+        <name value="Tasks api test suite" />
+        <name value="Update a task" />
+      </test-names>
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -279,19 +412,21 @@
       <test-file>$PROJECT_DIR$/tests/api_tests.js</test-file>
       <method />
     </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Mocha.api_tests" />
-      <item index="1" class="java.lang.String" itemvalue="Mocha.Database test suite.Lists table tests.Retrieve all lists" />
-      <item index="2" class="java.lang.String" itemvalue="Mocha.tests/database.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.lists.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.www" />
+      <item index="1" class="java.lang.String" itemvalue="Mocha.API test suite.List api test suite.Retrieve all tasks" />
+      <item index="2" class="java.lang.String" itemvalue="Mocha.API test suite.List api test suite.Archive all tasks" />
+      <item index="3" class="java.lang.String" itemvalue="Mocha.API test suite.List api test suite.Create a task" />
+      <item index="4" class="java.lang.String" itemvalue="Mocha.API test suite.Tasks api test suite.Retrieve a task" />
+      <item index="5" class="java.lang.String" itemvalue="Mocha.API test suite.Tasks api test suite.Update a task" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.www" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.lists.js" />
-        <item index="2" class="java.lang.String" itemvalue="Mocha.tests/database.js" />
-        <item index="3" class="java.lang.String" itemvalue="Mocha.Database test suite.Lists table tests.Retrieve all lists" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Mocha.API test suite.Tasks api test suite.Update a task" />
+        <item index="1" class="java.lang.String" itemvalue="Mocha.API test suite.Tasks api test suite.Retrieve a task" />
+        <item index="2" class="java.lang.String" itemvalue="Mocha.API test suite.List api test suite.Create a task" />
+        <item index="3" class="java.lang.String" itemvalue="Mocha.API test suite.List api test suite.Archive all tasks" />
+        <item index="4" class="java.lang.String" itemvalue="Mocha.API test suite.List api test suite.Retrieve all tasks" />
       </list>
     </recent_temporary>
   </component>
@@ -309,58 +444,58 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="api_tests - 2016.01.22 at 14h 07m 41s.xml">
-      <configuration name="api_tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="API_test_suite_Tasks_api_test_suite_Retrieve_a_task - 2016.01.28 at 23h 26m 23s.xml">
+      <configuration name="API test suite.Tasks api test suite.Retrieve a task" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="api_tests - 2016.01.22 at 14h 08m 43s.xml">
-      <configuration name="api_tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="API_test_suite_Tasks_api_test_suite_Retrieve_a_task - 2016.01.28 at 23h 26m 33s.xml">
+      <configuration name="API test suite.Tasks api test suite.Retrieve a task" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="api_tests - 2016.01.22 at 14h 08m 47s.xml">
-      <configuration name="api_tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="API_test_suite_Tasks_api_test_suite_Retrieve_a_task - 2016.01.28 at 23h 31m 13s.xml">
+      <configuration name="API test suite.Tasks api test suite.Retrieve a task" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="api_tests - 2016.01.22 at 14h 10m 17s.xml">
-      <configuration name="api_tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="API_test_suite_Tasks_api_test_suite_Update_a_task - 2016.01.28 at 23h 28m 33s.xml">
+      <configuration name="API test suite.Tasks api test suite.Update a task" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="api_tests - 2016.01.22 at 14h 10m 55s.xml">
-      <configuration name="api_tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="API_test_suite_Tasks_api_test_suite_Update_a_task - 2016.01.28 at 23h 30m 18s.xml">
+      <configuration name="API test suite.Tasks api test suite.Update a task" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="api_tests - 2016.01.22 at 14h 13m 51s.xml">
-      <configuration name="api_tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="API_test_suite_Tasks_api_test_suite_Update_a_task - 2016.01.28 at 23h 30m 19s.xml">
+      <configuration name="API test suite.Tasks api test suite.Update a task" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="api_tests - 2016.01.22 at 14h 13m 55s.xml">
-      <configuration name="api_tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="API_test_suite_Tasks_api_test_suite_Update_a_task - 2016.01.29 at 00h 58m 31s.xml">
+      <configuration name="API test suite.Tasks api test suite.Update a task" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="api_tests - 2016.01.22 at 14h 16m 47s.xml">
-      <configuration name="api_tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="API_test_suite_Tasks_api_test_suite_Update_a_task - 2016.01.29 at 01h 01m 49s.xml">
+      <configuration name="API test suite.Tasks api test suite.Update a task" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="api_tests - 2016.01.22 at 14h 16m 50s.xml">
-      <configuration name="api_tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="API_test_suite_Tasks_api_test_suite_Update_a_task - 2016.01.29 at 01h 10m 11s.xml">
+      <configuration name="API test suite.Tasks api test suite.Update a task" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="api_tests - 2016.01.22 at 14h 17m 31s.xml">
-      <configuration name="api_tests" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="API_test_suite_Tasks_api_test_suite_Update_a_task - 2016.01.29 at 01h 10m 21s.xml">
+      <configuration name="API test suite.Tasks api test suite.Update a task" configurationId="mocha-javascript-test-runner" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="801" y="322" width="1440" height="813" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1412" height="813" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37153652" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26815242" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32230216" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45179856" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3233831" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855093" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43905473" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -371,15 +506,15 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3233831" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32230216" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37153652" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26815242" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855093" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43905473" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45179856" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -397,12 +532,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/db/lists.js</url>
-          <line>99</line>
-          <option name="timeStamp" value="59" />
+          <url>file://$PROJECT_DIR$/node_modules/oauth2-server/lib/oauth2server.js</url>
+          <line>69</line>
+          <option name="timeStamp" value="77" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="75" />
+      <option name="time" value="100" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="NodeJSConfigurationType">
@@ -412,17 +547,13 @@
       <configuration name="mocha-javascript-test-runner">
         <watch expression="noListError" language="JavaScript" />
         <watch expression="result.rows[0]" language="JavaScript" />
+        <watch expression="res.body" language="JavaScript" />
+        <watch expression="res.statusCode" language="JavaScript" />
+        <watch expression="res.body" language="JavaScript" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/oauth2-server/lib/oauth2server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -469,7 +600,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#176#612#0" expanded="false" />
+            <element signature="e#246#608#0" expanded="false" />
+            <element signature="e#267#333#0" expanded="false" />
+            <element signature="e#339#602#0" expanded="false" />
+            <element signature="e#477#590#0" expanded="false" />
+            <element signature="e#654#1152#0" expanded="false" />
+            <element signature="e#726#1148#0" expanded="false" />
+            <element signature="e#747#813#0" expanded="false" />
+            <element signature="e#819#1142#0" expanded="false" />
+            <element signature="e#954#1002#0" expanded="false" />
+            <element signature="e#1052#1130#0" expanded="false" />
+            <element signature="e#1272#2140#0" expanded="false" />
+            <element signature="e#1293#1359#0" expanded="false" />
+            <element signature="e#1365#2134#0" expanded="false" />
+            <element signature="e#1460#2122#0" expanded="false" />
+            <element signature="e#1487#1575#0" expanded="false" />
+            <element signature="e#1581#2108#0" expanded="false" />
+            <element signature="e#1633#1864#0" expanded="false" />
+            <element signature="e#1870#2090#0" expanded="false" />
+            <element signature="e#1950#2066#0" expanded="false" />
+            <element signature="e#2198#2645#0" expanded="false" />
+            <element signature="e#2269#2641#0" expanded="false" />
+            <element signature="e#2290#2356#0" expanded="false" />
+            <element signature="e#2362#2635#0" expanded="false" />
+            <element signature="e#2510#2623#0" expanded="false" />
+            <element signature="e#2693#4457#0" expanded="false" />
+            <element signature="e#2738#2870#0" expanded="false" />
+            <element signature="e#2789#2862#0" expanded="false" />
+            <element signature="e#2942#4453#0" expanded="false" />
+            <element signature="e#2963#3029#0" expanded="false" />
+            <element signature="e#3035#4447#0" expanded="false" />
+            <element signature="e#3129#4433#0" expanded="false" />
+            <element signature="e#3180#4314#0" expanded="false" />
+            <element signature="e#3238#4294#0" expanded="false" />
+            <element signature="e#3272#3357#0" expanded="false" />
+            <element signature="e#3411#4270#0" expanded="false" />
+            <element signature="e#3585#4242#0" expanded="false" />
+            <element signature="e#3788#4210#0" expanded="false" />
+            <element signature="e#4022#4174#0" expanded="false" />
+            <element signature="e#4320#4419#0" expanded="false" />
+            <element signature="e#4529#4786#0" expanded="false" />
+            <element signature="e#4673#4707#0" expanded="false" />
+            <element signature="e#4748#4782#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -491,7 +666,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-          <folding />
+          <folding>
+            <element signature="e#176#612#0" expanded="false" />
+            <element signature="e#246#608#0" expanded="false" />
+            <element signature="e#267#333#0" expanded="false" />
+            <element signature="e#339#602#0" expanded="false" />
+            <element signature="e#477#590#0" expanded="false" />
+            <element signature="e#654#1152#0" expanded="false" />
+            <element signature="e#726#1148#0" expanded="false" />
+            <element signature="e#747#813#0" expanded="false" />
+            <element signature="e#819#1142#0" expanded="false" />
+            <element signature="e#954#1002#0" expanded="false" />
+            <element signature="e#1052#1130#0" expanded="false" />
+            <element signature="e#1272#2140#0" expanded="false" />
+            <element signature="e#1293#1359#0" expanded="false" />
+            <element signature="e#1365#2134#0" expanded="false" />
+            <element signature="e#1460#2122#0" expanded="false" />
+            <element signature="e#1487#1575#0" expanded="false" />
+            <element signature="e#1581#2108#0" expanded="false" />
+            <element signature="e#1633#1864#0" expanded="false" />
+            <element signature="e#1870#2090#0" expanded="false" />
+            <element signature="e#1950#2066#0" expanded="false" />
+            <element signature="e#2198#2645#0" expanded="false" />
+            <element signature="e#2269#2641#0" expanded="false" />
+            <element signature="e#2290#2356#0" expanded="false" />
+            <element signature="e#2362#2635#0" expanded="false" />
+            <element signature="e#2510#2623#0" expanded="false" />
+            <element signature="e#2693#4457#0" expanded="false" />
+            <element signature="e#2738#2870#0" expanded="false" />
+            <element signature="e#2789#2862#0" expanded="false" />
+            <element signature="e#2942#4453#0" expanded="false" />
+            <element signature="e#2963#3029#0" expanded="false" />
+            <element signature="e#3035#4447#0" expanded="false" />
+            <element signature="e#3129#4433#0" expanded="false" />
+            <element signature="e#3180#4314#0" expanded="false" />
+            <element signature="e#3238#4294#0" expanded="false" />
+            <element signature="e#3272#3357#0" expanded="false" />
+            <element signature="e#3411#4270#0" expanded="false" />
+            <element signature="e#3585#4242#0" expanded="false" />
+            <element signature="e#3788#4210#0" expanded="false" />
+            <element signature="e#4022#4174#0" expanded="false" />
+            <element signature="e#4320#4419#0" expanded="false" />
+            <element signature="e#4529#4786#0" expanded="false" />
+            <element signature="e#4673#4707#0" expanded="false" />
+            <element signature="e#4748#4782#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -656,39 +875,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/lists.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2353823">
-          <caret line="122" column="20" selection-start-line="122" selection-start-column="20" selection-end-line="122" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/create_database.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/tasks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0452489">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/tasks_router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38914028">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -717,7 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -735,49 +924,161 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/lists_router.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/oauth2-server/lib/oauth2server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oauth.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <caret line="69" column="4" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/www">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.021770682">
           <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/oauth2-server/lib/authorise.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5451031">
+        <state vertical-scroll-proportion="0.0">
           <caret line="55" column="23" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/oauth2-server/lib/oauth2server.js">
+    <entry file="file://$PROJECT_DIR$/oauth.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="83" column="44" selection-start-line="83" selection-start-column="44" selection-end-line="83" selection-end-column="44" />
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/superagent/superagent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5277361">
+          <caret line="1380" column="29" selection-start-line="1380" selection-start-column="29" selection-end-line="1380" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/lists.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="83" column="15" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="15" />
+          <folding>
+            <element signature="e#176#612#0" expanded="false" />
+            <element signature="e#246#608#0" expanded="false" />
+            <element signature="e#267#333#0" expanded="false" />
+            <element signature="e#339#602#0" expanded="false" />
+            <element signature="e#477#590#0" expanded="false" />
+            <element signature="e#654#1152#0" expanded="false" />
+            <element signature="e#726#1148#0" expanded="false" />
+            <element signature="e#747#813#0" expanded="false" />
+            <element signature="e#819#1142#0" expanded="false" />
+            <element signature="e#954#1002#0" expanded="false" />
+            <element signature="e#1052#1130#0" expanded="false" />
+            <element signature="e#1272#2140#0" expanded="false" />
+            <element signature="e#1293#1359#0" expanded="false" />
+            <element signature="e#1365#2134#0" expanded="false" />
+            <element signature="e#1460#2122#0" expanded="false" />
+            <element signature="e#1487#1575#0" expanded="false" />
+            <element signature="e#1581#2108#0" expanded="false" />
+            <element signature="e#1633#1864#0" expanded="false" />
+            <element signature="e#1870#2090#0" expanded="false" />
+            <element signature="e#1950#2066#0" expanded="false" />
+            <element signature="e#2198#2645#0" expanded="false" />
+            <element signature="e#2269#2641#0" expanded="false" />
+            <element signature="e#2290#2356#0" expanded="false" />
+            <element signature="e#2362#2635#0" expanded="false" />
+            <element signature="e#2510#2623#0" expanded="false" />
+            <element signature="e#2693#4457#0" expanded="false" />
+            <element signature="e#2738#2870#0" expanded="false" />
+            <element signature="e#2789#2862#0" expanded="false" />
+            <element signature="e#2942#4453#0" expanded="false" />
+            <element signature="e#2963#3029#0" expanded="false" />
+            <element signature="e#3035#4447#0" expanded="false" />
+            <element signature="e#3129#4433#0" expanded="false" />
+            <element signature="e#3180#4314#0" expanded="false" />
+            <element signature="e#3238#4294#0" expanded="false" />
+            <element signature="e#3272#3357#0" expanded="false" />
+            <element signature="e#3411#4270#0" expanded="false" />
+            <element signature="e#3585#4242#0" expanded="false" />
+            <element signature="e#3788#4210#0" expanded="false" />
+            <element signature="e#4022#4174#0" expanded="false" />
+            <element signature="e#4320#4419#0" expanded="false" />
+            <element signature="e#4529#4786#0" expanded="false" />
+            <element signature="e#4673#4707#0" expanded="false" />
+            <element signature="e#4748#4782#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/lists_router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.0">
+          <caret line="82" column="21" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+            <element signature="e#299#484#0" expanded="false" />
+            <element signature="e#392#480#0" expanded="false" />
+            <element signature="e#413#453#0" expanded="false" />
+            <element signature="e#548#689#0" expanded="false" />
+            <element signature="e#597#685#0" expanded="false" />
+            <element signature="e#618#658#0" expanded="false" />
+            <element signature="e#754#971#0" expanded="false" />
+            <element signature="e#846#967#0" expanded="false" />
+            <element signature="e#867#940#0" expanded="false" />
+            <element signature="e#1042#1269#0" expanded="false" />
+            <element signature="e#1178#1265#0" expanded="false" />
+            <element signature="e#1199#1238#0" expanded="false" />
+            <element signature="e#1343#1525#0" expanded="false" />
+            <element signature="e#1433#1521#0" expanded="false" />
+            <element signature="e#1455#1494#0" expanded="false" />
+            <element signature="e#1695#1979#0" expanded="false" />
+            <element signature="e#1717#1952#0" expanded="false" />
+            <element signature="e#1755#1888#0" expanded="false" />
+            <element signature="e#1894#1942#0" expanded="false" />
+            <element signature="e#2185#2302#0" expanded="false" />
+            <element signature="e#2206#2276#0" expanded="false" />
+            <element signature="e#2468#2553#0" expanded="false" />
+            <element signature="e#2489#2527#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/tasks_router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/tasks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="103" column="32" selection-start-line="103" selection-start-column="32" selection-end-line="103" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/api_tests.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47832587">
-          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#44#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.5277361">
+          <caret line="113" column="22" selection-start-line="113" selection-start-column="22" selection-end-line="113" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
