@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "supervisor ./bin/www",
+    "start": "node ./bin/www",
     "generateCodeCoverage": "istanbul cover _mocha -- tests/ -R spec",
     "test": "./node_modules/mocha/bin/mocha --reporter list -c tests/api_tests.js"
   },
@@ -22,6 +22,10 @@
     "chai": "^3.4.1",
     "mocha": "^2.3.4",
     "sinon": "^1.17.2",
-    "superagent": "^1.6.1"
+    "superagent": "^1.6.1",
+    "supervisor": "^0.9.1"
+  },
+  "engines": {
+    "node": "5.4.1"
   }
 }
