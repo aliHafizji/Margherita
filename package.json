@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "preinstall":"make createdb",
     "start": "node ./bin/www",
     "generateCodeCoverage": "istanbul cover _mocha -- tests/ -R spec",
     "test": "./node_modules/mocha/bin/mocha --reporter list -c tests/api_tests.js"

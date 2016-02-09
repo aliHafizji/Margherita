@@ -1,7 +1,7 @@
-DROP DATABASE IF EXISTS margherita;
-CREATE DATABASE margherita;
-
-\c margherita;
+--DROP DATABASE IF EXISTS margherita;
+--CREATE DATABASE margherita;
+--
+--\c margherita;
 
 CREATE TABLE oauth_access_tokens(access_token text PRIMARY KEY NOT NULL, client_id text NOT NULL, user_id uuid NOT NULL, expires timestamp without time zone);
 CREATE TABLE oauth_clients(client_id uuid NOT NULL, client_secret text NOT NULL, grant_type text NOT NULL, redirect_uri text NOT NULL);

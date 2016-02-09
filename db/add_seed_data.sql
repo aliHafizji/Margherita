@@ -1,4 +1,4 @@
-\c margherita;
+--\c margherita;
 
 CREATE EXTENSION pgcrypto;
 
